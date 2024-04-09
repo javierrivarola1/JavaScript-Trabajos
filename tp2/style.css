@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: crimson;
+    font-size: x-large;
+}
+
+h2 {
+    color: #B4B4B8;
+    font-size: medium;
+}
+
+h3 {
+    color:#747264;
+    font-size: medium;
+}
+
+h4 {
+    color:black;
+    font-size: medium;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.img2 {
+    width: 400px;
+    height: 600px;
+    background-image: url(delPotro.avif);
+    margin: 2rem;
+}
+
+.img {
+    width: 1000px;
+    height: 1100px;
+    background-image: url(buenosAires.avif);
+    margin-top: 2rem;
+}
+
+a {
+    color: black;
+    font-size: medium;
+
+}
+
+a:hover {
+color: red;
+}
+
+footer {
+    margin: 2vh;
+}
