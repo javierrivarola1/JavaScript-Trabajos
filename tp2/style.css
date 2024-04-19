@@ -55,14 +55,19 @@ nav a:hover {
 }
 
 .articulos {
-  width: 75%;
-  border-right: 3px solid black;
+  display: flex;
+  width: 100%;
+  background-color: red;
 }
 
 .secciones {
   display: flex;
   align-items: center;
   padding: 2rem;
+  background-color: aqua;
+  width: 75%;
+  border-right: 3px solid black;
+  
 }
 
 .img-buenosAires {
@@ -70,6 +75,17 @@ nav a:hover {
   height: 200px;
   border-radius: 50%;
 }
+
+.menu-secundario {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  & a {
+    margin: 2rem;
+  }
+}
+
+
 
 /* footer */
 footer {
