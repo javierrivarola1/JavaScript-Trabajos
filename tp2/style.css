@@ -1,128 +1,77 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  padding: 20px;
 }
 
 /* nav */
-.img-nav {
-    margin: 1rem;
+
+nav {
+  display: flex;
+  flex-direction: row;
 }
 
-
-
-h1 {
-    color: crimson;
-    font-size: x-large;
-    text-align: center;
-    background-color: black;
-    color: whitesmoke;
-    padding: 20px;
+nav img {
+  background-color: #b39b9a;
 }
 
 nav ul {
-    background-color: #bdb293;
-    width: 100%;
-    list-style-type: none;
-    text-align: center;
+  background-color: white;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+  padding: 20px;
 }
 
 nav li {
-display:inline-flex ;
-
+  display: inline-flex;
 }
 
 nav a {
-    text-decoration: none;
-    color: whitesmoke;
-    padding: 2rem;
-    width: 10rem;
+  text-decoration: none;
+  padding: 10px;
+  width: 9.375rem;
+  color: black;
+  font-size: medium;
 }
 
-h2 {
-    color: #B4B4B8;
-    font-size: medium;
-    text-align: center;
+nav a:hover {
+  color: brown;
 }
 
-.Diarios {
+/* seccion 1 */
 
-    text-align: center;
-    margin: 1rem;
+.contenido {
+  display: flex;
+  margin: 40px;
+  flex-wrap: nowrap;
 }
 
-h3 {
-    color:#747264;
-    font-size: medium;
+.articulos {
+  width: 75%;
+  border-right: 3px solid black;
 }
 
-h4 {
-    color:black;
-    font-size: medium;
-    text-align: center;
+.secciones {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
 }
 
-/*primera seccion  */
-
-.primeraSeccion {
-    display: flex;
-    align-items:center;
+.img-buenosAires {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
-/*segunda seccion  */
-
-.segundaSeccion {
-    display: flex;
-    align-items: center;
-    margin: 2rem;
-}
-
-/*tercera seccion  */
-
-/* Barra lateral */
-
-.barra-lateral {
-    padding-left: 10rem;
-    font-weight: bold;
-    font-style: italic;
-    color: gray;
-    margin: 1rem;
-}
-
-.masNoticias {
-    margin: 1rem;
-}
-
-
-
-p {
-text-align: left;
-margin: 1rem;
-margin-right: 2rem;
-}
-
-
-.img {
-    width: 400px;
-    height: 400px;
-    background-image: url(buenosAires.avif);
-}
-
-a {
-    color: black;
-    font-size: medium;
-
-}
-
-a:hover {
-color: blueviolet;
-transition: ease-in-out 1ms;
-}
-
-
-/* Footer */
-
-
+/* footer */
 footer {
-    margin: 2vh;
+  margin: 2rem;
 }
