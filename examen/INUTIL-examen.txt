@@ -1,0 +1,203 @@
+¿Cómo se calcula el tamaño total de un contenedor?
+
+El tamaño total de un contenedor en el modelo de caja se calcula sumando el ancho y alto del contenido, junto con el relleno, el borde y el margen.
+
+En Box Model existen elementos que contienen a otros. ¿Cómo influye en la indentación y escritura clara del código?
+
+la estructura de elementos que contienen a otros en HTML influye en la indentación y la claridad del código, lo que a su vez mejora la legibilidad, 
+facilita el mantenimiento y la colaboración, y ayuda en la identificación y resolución de problemas.
+
+
+
+1. Que son las MQ, para que sirven, como se utilizan, donde se incluyen:
+
+Las media queries son una característica, que permite aplicar estilos CSS específicos según las características del dispositivo en el que se esté visualizando la página web, 
+como el tamaño de la pantalla, la resolución, la orientación y más. Adaptarse correctamente a diferentes tamaños y tipos de dispositivos.
+
+Las MediaQ sirven para:
+_Adaptacion de dispositivos
+_Mejorar la experiencia del usuario
+_Optimizacion del rendimiento
+
+Las mediasQ se utilizan dentro del archivo CSS, lleva ciertos parametros como por ej el ancho de la pantalla.
+
+ej: @media (width <= 470) {
+
+body: {
+
+color: orange }
+
+}
+
+Esto quiere decir que si la pantalla es menor de 470px la letra del body se convertirá en naranja.
+
+La mediaQ se incluye en archivos de CSS y se vinculan con el HTML.
+
+
+-------------------------------------
+
+2a. Las propiedades asignadas al elemento body con CSS son pasadas por cascada al resto de los elementos de una pagina web.
+
+Verdadero, las propiedades CSS asignadas al elemento body pueden influir en otros elementos de la página web debido a la cascada y la herencia, 
+dos principios fundamentales del modelo de estilo en CSS.
+
+_En una pagina web, el sentido semantico se lo da el nombre de las clases?
+
+No, se los da las etiquetas.
+
+----
+
+2b. JSON puede tener datos de distintos tipos:
+
+Verdadero, el archivo JSON puede tener datos de distintos tipos. Ejemplo: String, booleano, number,null, array, objetos.
+
+
+_JSON es exactamente lo mismo que un arreglo:
+
+Falso, JSON es un formato de datos utilizado para intercambiar información, mientras que un arreglo es una estructura de datos utilizada para almacenar y manipular listas de elementos en la memoria de un programa. 
+----
+
+2c. Las medias queries funcionan para puntos fijos de quiebre y cuando estos son maximos?
+
+Si las mediasQ tienen breackpoints, esto quiere decir que puede hacer un "quiebre" ya por el ancho maximo de la pantalla como el ancho minimo.
+ej: @media (max width: 1400px) {}
+@media (min width: 360px) {}
+
+
+_ Con las Medias Queries se pueden estableces estilos para la cantidad de resoluciones de pantalla que el 
+desarrollador desee.
+
+ Si, en "hojas de estilo en cascada" no importa la mediaquery que se use, el estilo de una web se puede armar
+más allá de la resolución de la pantalla con la que se esté trabajando, según las reglas o limites de pixeles que les pongas, se puede adaptar.
+Ejemplo: 
+@media (width <= 480px) {
+
+Aca se pone lo que queres modificar de la web.
+
+}
+
+----
+
+2e. La conexion para hacer una vinculacion entre HTML, CSS Y JS deben ser por los IDs.
+
+Falso, se hace a travez de los links de vinculacion dentro del HTML.
+<script src="main.js"> </script> JS
+
+<link rel="stylesheet" href="style.css" /> CS
+
+----
+
+2f. Una buena practica es incluir al JS en el inicio del HTML.
+
+Falso, ya que si vos al script lo tenes ubicado de esa manera y pones un ID de bajo de la etiqueta, JS no lo va a leer, no va a tener cierta funcionalidad sobre ese HTML. 
+Por eso siempre se recomienda que el <script> se encuentre cuando se termine el body.
+
+----
+
+2g. Sin un servidor local puedo hacer funcionar en mi PC paginas desarroladas con HTML Y CSS?
+
+Verdadero, puedes hacer funcionar páginas desarrolladas con HTML y CSS en tu PC sin necesidad de un servidor local. HTML y CSS son lenguajes de marcado y de estilo
+ y los navegadores web modernos pueden interpretar y renderizar archivos HTML y CSS directamente desde el sistema de archivos local.
+
+----
+
+2.h Javascript es un lenguaje donde el flujo y orden de ejecución de los programas podemeos predecirlo y es siempre el mismo.
+Verdadero, se puede saber el compartamiento de las funciones, variables, etc, su resultado puede ser distinto pero en el momento de ejecutarse, siempre es igual.
+
+----
+
+2.i Una pagina web escrita con buena practica en cuanto semantica es independiente del estilo a que se aplica.
+Verdadero, ya que podes tener todo un orden dentro del esqueleto del HTML correcto y el CSS 
+
+----
+
+2.j Los métodos POST y PUT en AJAX no realizan la misma operación sobre un servicio REST. PATCH. 1 linea. PUT actualiza totalidad
+Aunque ambos métodos se utilizan para enviar datos al servidor, tienen diferentes propósitos y comportamientos.
+----
+
+2.k Las promesas usadas para AJAX se cumplen.
+Verdadero, se cumplen pero no siempre son el mismo resultado.
+
+
+Pendiente: La operación asincrónica aún no ha terminado.
+Cumplida: La operación se completó con éxito.
+Rechazada: La operación falló.
+
+----
+
+2.l La web es un sistema centralizado que funciona con una arquitectura de servidores.
+
+Falso, ya que vos podes asignar una web desde cualquier computadora con internet, desplegandola en un host.
+
+----
+
+2.M La semantica se emplea para incluir contenido multimedia con los sientos web.
+
+Verdadero, para incluir contenido multimedia de manera semántica en un sitio web, se utilizan etiquetas específicas que describen claramente el tipo de contenido que contienen.
+La semántica en HTML se refiere al uso de etiquetas que tienen un significado claro y definido, lo cual ayuda a los navegadores a entender mejor el contenido de una página web.
+
+----
+
+2.N El uso de funciones es considerado buena practica en JS?
+
+Verdadero, ya que mejora la legitibilidad del codigo y proporciona una descripción más clara de la misma, no solo eso también se puede reutilizar las funciones.
+Esto ayuda a tener mas control y prolijidad en el momento de testar ese codigo.
+
+----
+
+
+2.P El modelo de cajas box model solo es valido para los sitios responsive:
+
+Falso, el modelo de caja (box model) es una parte fundamental del diseño y el posicionamiento de elementos en CSS, y es aplicable a todo tipo de sitios web, no solo a los sitios responsive.
+
+Content: Área principal donde se muestra el contenido.
+Padding: Espacio entre el contenido y el borde del elemento.
+Border: Línea que rodea el contenido y el relleno.
+Margin: Espacio exterior que separa el elemento de otros elementos.
+box-sizing: Propiedad para incluir padding y border en el tamaño total del elemento.
+
+----
+
+2.Q Si en CSS se esta usando herencia, no puede emplearse cascada.
+
+Falso, ambos pueden y suelen emplearse juntos para determinar cómo se aplican los estilos a los elementos en una página web, trabajan en conjunto.
+Herencia: se refiere a la capicidad de ciertos estilos que puede ser "heredados" por elementos hijos(secundarios) a sus padres (primarios).
+
+----
+
+2.R Las tecnologías front-end se ejecutan solo del lado del servidor.
+
+Falso, de hecho, se ejecutan principalmente del lado del cliente. Cuando hablamos de Front-end se refiere a la parte del desarrollo web que se ocupa de la interfaz de usuario y la experiencia del usuario.
+
+----
+
+2.S El DOM se utiliza solo para identificar las clases declaradas en la hoja CSS.
+
+Falso, permite seleccionar, modificar, agregar y eliminar elementos y sus atributos, así como manipular estilos y manejar eventos.
+
+----
+
+2. T El debug y verificación de errores en JS solo puede verse en un editor de codigo (como por ejemplo vs code)
+
+Falso, no solo podes verlo en los editores de codigos, sino que también en la consola de la web por ejemplo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

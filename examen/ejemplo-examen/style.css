@@ -1,0 +1,27 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p, h2, h3, h4, h5, h6 { 
+    color:blue;
+}
+
+h1 {
+    color: red;
+}
+
+header ul li a {
+background-color: black;
+color:white;
+}
+
+header ul li a:hover {
+background-color: blue;
+}
+
+nav ul li a {
+background-color: red;
+color:black;
+}
+
+

@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 0;
+    height: 100%;
+}
+
+.seccion1 {
+    background-color: red;
+    display: none;
+}
+
+.seccion2 {
+    background-color: blueviolet;
+    display: none;
+}
+
+.seccion3 {
+    background-color: aqua;
+}
+
+.seccion4 {
+    background-color: blue;
+}
+
+.seccion5 {
+    background-color: green;
+}
+
+.seccion6 {
+    background-color: rgb(33, 143, 221);
+}
+
+
+@media (width <= 420px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .seccion2 {
+        display: block;
+    }
+
+    .seccion3, .seccion6 {
+        display: none;
+    }
+
+}
+
